@@ -24,7 +24,7 @@ public class Url {
     private String shortUrl;
 
     @Column(nullable=false)
-    private LocalDateTime dateTime;
+    private LocalDateTime creationDate;
 
     @Builder.Default
     @Column(nullable=false)
